@@ -1,0 +1,538 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+/* ------------ MENU BAR ---------------- */
+.top_bar {
+    display: flex;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+/*----my personal portfolio text----*/
+.myport {
+    color: #354E61;
+    margin-left: 30px;
+}
+/* -----MENU: Home, About Me, Contacts, Interest, Blog ----*/
+.myhome a {
+    margin-left: 400px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #354E61;
+}
+.myaboutme a, .contacts a, .interest a, .blog a {
+    margin-left: 30px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #354E61;
+}
+/* -------HOVER for Menu Bar------ */
+h4.myhome:hover, h4.myhome:active,
+h4.myaboutme:hover, h4.myaboutme:active,
+h4.contacts:hover, h4.contacts:active,
+h4.interest:hover, h4.interest:active,
+h4.blog:hover, h4.blog:active {
+    font-weight: bold;
+}
+/* -----HOME PAGE-------HOME PAGE------------HOME PAGE--------------------------------------------------------------- */
+/* ----Introduction: profile picture, name and thank you message---- */
+/* ---first layer of background */
+.introduction {
+    background: #C0DBE2;
+    width: 1400px;
+    height: 580px;
+    display: flex;
+}
+/* ---profile picture, name and thank you message--- */
+/*---- Second Layer of backgound---- */
+.introduction .second_background {
+    background: #538495;
+    display: flex;
+    width: 1250px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+/* ---profile picture */
+.second_background .my_profile {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+/* ----NAME--- */
+.profile h4 {
+    margin-left: 110px;
+    margin-top: 10px;
+    color: #ffff;
+    font-weight: 600;
+}
+/* ------Thank You NOTE---- */
+.profile p {
+    margin: 10px 40px 10px 40px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: italic;
+    color: #FFFFFF;
+}
+/* ----Third layer background---- */
+.introduction .second_background .third_background {
+    background: #354E61;
+    height: 500px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.third_background .par1 {
+    color: #FFFFFF;
+    margin: 110px 90px 0px 90px;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+.third_background .par2 {
+    color: #FFFFFF;
+    margin: 90px 90px 0px 90px;
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}
+/* ------ABOUT ME PAGE-------- ABOUT ME PAGE -------ABOUT ME PAGE------------------------------------------------------ */
+/* ------RIGHT SECTION BACKGROUND---- */
+.main_section {
+    background: #C0DBE2;
+    width: calc(100%-1300px); 
+    display: flex;
+    padding-right: 40px;
+}
+/* -----ABOUT ME SUMMARY---- */
+.summary_aboutme h2 {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #354E61;
+}
+.summary_aboutme p {
+    color: #000000;
+}
+/* ------EDUCATION----- */
+.my_education h2 {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #354E61;
+}
+.my_education h4, h5 {
+    font-weight: bold;
+    color: #354E61;
+}
+.my_education p {
+    color: #000000;
+}
+.my_education .education_separator {
+    color: #354E61;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 15px; 
+}
+/* ------WORK EXPERIENCES------ */
+.my_work_experience h2 {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #354E61;
+}
+.my_work_experience h4 {
+    font-weight: bold;
+    color: #354E61; 
+}
+.my_work_experience .company_name {
+    color: #000000;
+    font-weight: 500;
+}
+.my_work_experience .date_place_separator {
+    color: #354E61;
+    font-size: 15px;
+    font-weight: 800;
+    line-height: 15px; 
+}
+.third_work p {
+    color: #000000;
+}
+.third_work ul>li{
+    color: #000000;
+}
+.second_work p {
+    color: #000000;
+}
+.second_work ul>li{
+    color: #000000;
+}
+.first_work p {
+    color: #000000;
+}
+.first_work ul>li{
+    color: #000000;
+}
+/*-----LEFT-SECTION BACKGROUND----- */
+.left_section {
+    width: 1300px;
+    background: #354E61;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    margin-right: 60px;
+    padding-left: 40px;
+}
+/* --------SKILLS------- */
+.my_skills h2 {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #FFFFFF; 
+}
+.certificate h2 {
+    margin-top: 30px;
+    font-weight: bold;
+    color: #FFFFFF;    
+}
+.certificate .cert_link {
+    color: #FFFFFF;  
+}
+/* ------ +CONNECT -------- +CONNECT ------ +CONNECT ------------------------------------------------------------------ */
+/* ----LEFT SECTION----- */
+.header {
+    background: #C0DBE2;
+}
+.header h1 {
+    font-size: 37px;
+    font-weight: 500px;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+
+.connect_section {
+    background: #C0DBE2;
+    width: calc(100%-1400px); 
+    display: flex;
+}
+/* -----LETS GET IN TOUCH--- */
+.touch_first_background {
+    background: #354E61;
+    width: 400px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.touch_first_background h2 {
+    color: #FFFFFF;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+.touch_second_background {
+    background: #FFFFFF;
+    width: 400px;
+    height: 100px;
+    margin-left: 30px;
+}
+.touch_second_background p {
+    padding-left: 10px;
+    margin-bottom: 0;
+    color: #354E61;
+    font-size: 17px;
+}
+/* -------LETS CONNECT---- */
+.first-section {
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+}
+.touch_first_background {
+    background: #354E61;
+    width: 400px;
+    height: 100px;
+    margin-top: 40px;
+}
+.touch_first_background h2 {
+    color: #FFFFFF;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+.touch_second_background {
+    background: #FFFFFF;
+    width: 400px;
+    height: 100px;
+    margin-left: 30px;
+}
+.touch_second_background p {
+    padding-left: 10px;
+    margin-bottom: 0;
+    color: #354E61;
+    font-size: 17px;
+}
+/* -------LETS CONNECT----- */
+.connect_first_background {
+    background: #354E61;
+    width: 400px;
+    height: 100px;
+    margin-top: 130px;
+    margin-left: 30px;
+    margin-bottom: 150px;
+}
+.connect_first_background h2 {
+    color: #FFFFFF;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+.connect_second_background {
+    background: #FFFFFF;
+    width: 400px;
+    height: 100px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+/* ---FACEBOOK---- */
+.static_fb {
+    position: absolute;
+    background: #FFFFFF;
+}
+.static_fb:hover {
+    opacity: 0;
+}
+.fb_det {
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+/* ---GITHUB----- */
+.static_git {
+    position: absolute;
+    background: #FFFFFF;
+}
+.static_git:hover {
+    opacity: 0;
+}
+.git_det {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+/* ----INSTAGRAM---- */
+.static_insta {
+    position: absolute;
+    background: #FFFFFF;
+}
+.static_insta:hover {
+    opacity: 0;
+}
+.insta_det {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+/* LINKEDIN */
+.static_linkedin {
+    position: absolute;
+    background: #FFFFFF;
+}
+.static_linkedin:hover {
+    opacity: 0;
+}
+.linked_det {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+/* ---TWITTER---- */
+.static_twitter {
+    position: absolute;
+    background: #FFFFFF;
+}
+.static_twitter:hover {
+    opacity: 0;
+}
+.twit_det {
+    margin-top: 25px;
+    margin-right: 20px;
+}
+/* ----------RIGHT SECTION------- */
+.collaborate_first_background {
+    width: 1400px;
+    background: #C0DBE2;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.collaborate_first_background h2 {
+    margin-top: 20px;
+}
+.fullname {
+    font-size: 18px;
+}
+.first_name_box {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.email_add {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.subject {
+    font-size: 18px;
+    margin-top: 20px;
+}
+.email_subject_box {
+    margin-left: 60px;
+    margin-right: 20px;
+}
+.message {
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+textarea {
+    margin-left: 40px;
+    width: 585px;
+    height: 200px;
+}
+.action_button {
+    margin-top: 20px;
+    margin-left: 650px;
+}
+
+/* -------------PROJECTS---------------------------------- */
+/* ----SYCAMORE----- */
+.project_section {
+    background: #354E61;
+}
+.sycamoreslide {
+    display: flex;
+}
+.sycamoreslide img{
+    width: 700px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.sycamoreslide .description_syca {
+    margin-top: 100px;
+}
+.sycamoreslide p {
+    margin-left: 30px;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.sycamoreslide .repo_syca, .sycamoreslide .web_syca {
+    color: #F32539;
+}
+/* --------NUMBER GAME------ */
+
+.gameslide {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-bottom: 40px;
+}
+.gameslide .description_game {
+    margin-top: 100px;
+}
+.gameslide p {
+    margin-left: 30px;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.gameslide .repo_game, .gameslide .web_game {
+    color: #F32539;
+}
+/* ----------PORTFOLIO---------- */
+.project_section {
+    background: #354E61;
+}
+.portfolio_slide {
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+}
+.portfolio_slide img {
+    width: 700px;
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+.portfolio_slide .description_port {
+    margin-top: 100px;
+}
+.portfolio_slide p {
+    margin-left: 35px;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.portfolio_slide .repo_port, .portfolio_slide .web_port {
+    color: #F32539;
+}
+
+/* ----------------BLOG-------------------BLOG------------------------------------------------------------------------------ */
+.blog_background {
+    background: #C0DBE2;
+    padding-top: 15px;
+}
+
+.blog_second_background {
+    background: #354E61;
+    width: 1000px;
+    margin-left: 180px;
+    color: #FFFFFF;
+}
+.blog_video {
+    width: 980px;
+    height: 400px;
+    margin: 10px 10px 10px 10px;
+}
+.blog_second_background h2 {
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.blog_photo1 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.blog_photo2 {
+    width: 300px;
+    height: 300px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.blog_photo3 {
+    width: 300px;
+    height: 300px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.blog_summary p {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 18px;
+}
+.blog_summary .hey {
+    padding-top: 20px;
+}
+.blog_myname p {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
